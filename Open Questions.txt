@@ -35,3 +35,4 @@ to low cost and security.
 communicate over I2C. What kind of solution would you develop so that 
 devices can be dynamically addressed and recognize each other?
 -Multiplexer
+
