@@ -2,7 +2,9 @@
 they differ from regular OS’s?
 -The main feature of RTOS among regular OS is that it designed to use in
 critical applications that relate to automation, measurement and control.
-In these applications a fast and real time response will affect the whole process. For that and for more precise response RTOS deals good with interruption by using priority-based functioning.
+In these applications a fast and real time response will affect the whole process. 
+For that and for more precise response RTOS deals good with interruption by using 
+priority-based functioning.
 
 2.When is it preferable to use STM32 over Arduino, ESP32, PIC or other 
 comparable embedded system?
