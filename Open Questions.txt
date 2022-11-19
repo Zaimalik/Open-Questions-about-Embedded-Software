@@ -8,31 +8,31 @@ priority-based functioning.
 
 2.When is it preferable to use STM32 over Arduino, ESP32, PIC or other 
 comparable embedded system?
-- STM32 in  general used for industrial manner and it used as a product 
-for professional developer 
+- STM32 in general used for industrial manner and it used as a product 
+for professional developer. It also has a good reliability comparing with others 
+in addition to its ability to be connected with different kinds of electronic components 
+due to the large number of serial and parallel communication peripherals.
 
 3.Let's assume that a few of the peripherals you use have the same 
 hardcoded I2C address. What solution would you use to solve this problem?
--Multiplexer 
--Use different serial clock for each device
+-Multiplexer; but it should be considered that a new component will be added to circuit 
 
 4.Let's assume that there is a hardware module that is attached to the 
 motherboard with a mezzanine connector. Due to the small form factor, 
 the number of pins on the mezzanine connector is much less than the 
 number of pins you need. Assuming that the communication speed is not 
 important, how would you solve this problem?
--
+(no answer)
 
 5.Let's say you want about 30 hardware modules to communicate with each 
 other. There is one STM32 microcontroller on each module, and the modules
 can be removed and installed instantly. Which communication standard would 
 you use for these modules to communicate effectively with each other? Why?
-- LORA communication protocol is suitable for communication for a multi 
-device module. It features long range with low battery usage in addition 
-to low cost and security.
+- LORA communication protocol. It features long range with low battery usage 
+in addition to low cost and security which make it suitable.
 
 6.3 devices with identical embedded software and hardware are required to
 communicate over I2C. What kind of solution would you develop so that 
 devices can be dynamically addressed and recognize each other?
--Multiplexer
-
+-TCA9548A IC maybe a good solution for this with the ability to allow 
+up to 8 identecal devices
